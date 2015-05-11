@@ -1,4 +1,6 @@
-#atlantid
+#atlantid{
+  font-family: Atlantid;
+}
 @font-face {
   font-family: 'Atlantid';
   font-style: normal;
@@ -6,7 +8,9 @@
   src: url(fonts/ATLANTID.ttf);
 }
 
-#azbuka2
+#azbuka2{
+  font-family: Azbuka2;
+}
 @font-face {
   font-family: 'Azbuka2';
   font-style: normal;
@@ -14,7 +18,9 @@
   src: url(fonts/Azbuka02.ttf);
 }
 
-#azbuka3
+#azbuka3{
+  font-family: 'Azbuka3';
+}
 @font-face {
   font-family: 'Azbuka3';
   font-style: normal;
@@ -22,202 +28,277 @@
   src: url(fonts/Azbuka03_D.ttf);
 }
 
-#blago
+#blago{
+  font-family: 'Blago';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Blago';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/BLAGO/BLAGO.ttf);
 }
 
-#azbuka2
+#cirpnova{
+  font-family: 'Cirpnova';  }
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Cirpnova';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/CIRPNOVA_D.ttf);
 }
 
-#azbuka2
+#dilyan{
+  font-family: 'Dilyan';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Dilyan';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/dilyan.ttf);
 }
 
-#azbuka2
+#goran{
+  font-family: 'Goran';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Goran';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/GORAN.ttf);
 }
 
-#azbuka2
+#goranC{
+  font-family: 'GoranC';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'GoranC';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/GORAN_C.ttf);
 }
 
-#azbuka2
+#Jagodina{
+  font-family: 'Jagodina';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Jagodina';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/JAGODINA.ttf);
 }
 
-#azbuka2
+#jgdpraz{
+  font-family: 'JgdPraz';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'JgdPraz';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/JGD_PRAZ.ttf);
 }
 
-#azbuka2
+#jgdprko{
+  font-family: 'JgdPrko';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'JgdPrko';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/JGD_PRKO.ttf);
 }
 
-#azbuka2
+#kurziv{
+  font-family: 'Kurziv';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Kurziv';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/KURZIV_CRNI_D.ttf);
 }
 
-#azbuka2
+#mirojev{
+  font-family: 'Mirojev';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Mirojev';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/MIROJEV.ttf);
 }
 
-#azbuka2
+#mirosln{
+  font-family: 'Mirosln';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Mirosln';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/MIROSLN.ttf);
 }
 
-#azbuka2
+#mjevan{
+  font-family: 'Mjevan';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Mjevan';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/MJEVANDJ.ttf);
 }
 
-#azbuka2
+#naopak{
+  font-family: 'Naopak';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Naopak';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/NAOPAK.ttf);
 }
 
-#azbuka2
+#nikola{
+  font-family: 'Nikola';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Nikola';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/NIKOLA.ttf);
 }
 
-#azbuka2
+#nikolaL{
+  font-family: 'NikolaL';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'NikolaL';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/NIKOLA_L.ttf);
 }
 
-#azbuka2
+#oksana{
+  font-family: 'Oksana';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Oksana';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/OksanaUADemo.ttf);
 }
 
-#azbuka2
+#petricic{
+  font-family: 'Petricic';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Petricic';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/PETRICIC.ttf);
 }
 
-#azbuka2
+#pravosla{
+  font-family: 'Pravosla';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Pravosla';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/pravosla.ttf);
 }
 
-#azbuka2
+#spomenar2{
+  font-family: 'Spomenar2';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Spomenar2';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/SPOMENAR2.ttf);
 }
 
-#azbuka2
+#spomenar6{
+  font-family: 'Spomenar6';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Spomenar6';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/SPOMENAR6.ttf);
 }
 
-#azbuka2
+#srpskaKniga{
+  font-family: 'SrpskaKniga';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'SrpskaKniga';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/SRPSKA_KNIGA/SKNIGA13.ttf);
 }
 
-#azbuka2
+#strahinja{
+  font-family: 'Strahinja';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Strahinja';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/strahinja.ttf);
 }
 
-#azbuka2
+#svetiSava{
+  font-family: 'SvetiSava';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'SvetiSava';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/SVETI_SAVA/SVSAVA.ttf);
 }
 
-#azbuka2
+#ukije{
+  font-family: 'Ukije';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Ukije';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/UKIJJe.ttf);
 }
 
-#azbuka2
+#vuk34{
+  font-family: 'Vuk34';}
 @font-face {
-  font-family: 'Azbuka';
+  font-family: 'Vuk34';
   font-style: normal;
   font-weight: 400;
-  src: url(fonts/Azbuka02.ttf);
+  src: url(fonts/VUK-34.ttf);
+}
+
+
+#wrongo{
+  font-family: 'Wrongo';}
+@font-face {
+  font-family: 'Wrongo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Wrongo_ULC_4F-Regular.ttf);
+}
+
+
+#wrongoI{
+  font-family: 'WrongoI';}
+@font-face {
+  font-family: 'WrongoI';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Wrongo_ULC_4F-Regular_Italic.ttf);
+}
+
+
+#zaneseni{
+  font-family: 'Zaneseni';}
+@font-face {
+  font-family: 'Zaneseni';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Zanesennyi.ttf);
+}
+
+
+#zlatso{
+  font-family: 'Zlatso';}
+@font-face {
+  font-family: 'Zlatso';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/ZlatSoUcs.ttf);
+}
+
+
+#zlatu{
+  font-family: 'Zlatu';}
+@font-face {
+  font-family: 'Zlatu';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/ZlatUcs.ttf);
 }
