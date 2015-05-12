@@ -1,3 +1,21 @@
+#arkhip{
+  font-family: Arkhip;
+}
+@font-face {
+  font-family: 'Arkhip';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Arkhip_font.ttf);
+}
+#arvo{
+  font-family: Arvo;
+}
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Arvo-Regular.ttf);
+}
 #atlantid{
   font-family: Atlantid;
 }
@@ -73,7 +91,7 @@
   src: url(fonts/GORAN_C.ttf);
 }
 
-#Jagodina{
+#jagodina{
   font-family: 'Jagodina';}
 @font-face {
   font-family: 'Jagodina';
@@ -100,24 +118,6 @@
   src: url(fonts/JGD_PRKO.ttf);
 }
 
-#kurziv{
-  font-family: 'Kurziv';}
-@font-face {
-  font-family: 'Kurziv';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/KURZIV_CRNI_D.ttf);
-}
-
-#mirojev{
-  font-family: 'Mirojev';}
-@font-face {
-  font-family: 'Mirojev';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/MIROJEV.ttf);
-}
-
 #mirosln{
   font-family: 'Mirosln';}
 @font-face {
@@ -125,15 +125,6 @@
   font-style: normal;
   font-weight: 400;
   src: url(fonts/MIROSLN.ttf);
-}
-
-#mjevan{
-  font-family: 'Mjevan';}
-@font-face {
-  font-family: 'Mjevan';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/MJEVANDJ.ttf);
 }
 
 #naopak{
@@ -172,15 +163,6 @@
   src: url(fonts/OksanaUADemo.ttf);
 }
 
-#petricic{
-  font-family: 'Petricic';}
-@font-face {
-  font-family: 'Petricic';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/PETRICIC.ttf);
-}
-
 #pravosla{
   font-family: 'Pravosla';}
 @font-face {
@@ -215,24 +197,6 @@
   font-style: normal;
   font-weight: 400;
   src: url(fonts/SRPSKA_KNIGA/SKNIGA13.ttf);
-}
-
-#strahinja{
-  font-family: 'Strahinja';}
-@font-face {
-  font-family: 'Strahinja';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/strahinja.ttf);
-}
-
-#svetiSava{
-  font-family: 'SvetiSava';}
-@font-face {
-  font-family: 'SvetiSava';
-  font-style: normal;
-  font-weight: 400;
-  src: url(fonts/SVETI_SAVA/SVSAVA.ttf);
 }
 
 #ukije{

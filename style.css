@@ -1,0 +1,13 @@
+div{
+    text-align: center;
+}
+div{
+    width: 500px;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+span{
+    font-family: Arial;
+}
