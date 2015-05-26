@@ -6,180 +6,19 @@
     <link rel='stylesheet' href='style.css' type='text/css' media='all'/>
     <link rel='stylesheet' href='font.css' type='text/css' media='all'/>
 </head>
-<body>
-    <div id="arkhip">
-        <a href="fonts/Arkhip_font.ttf" download="">download Arkhip</a>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
+<body data-ng-app="App">
+    <div data-ng-controller="fontsCtrl">
+        <div data-ng-repeat="font in fonts">
+            <div>
+                <span><a data-ng-src="fonts/{{font.src}}" download="">download {{font.name}}</a></span>
+                <aside style="font-family: {{font.name}}">
+                <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
+                <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
+                <p>0123456789</p>
+                </aside>
+        </div>
     </div>
-    <div id="arvo">
-        <span>font: Arvo-Regular</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="atlantid">
-        <span>font: Atlantid</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="azbuka2">
-        <span>font: Azbuka02</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="azbuka3">
-        <span>font: Azbuka03</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="blago">
-        <span>font: Blago</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="cirpnova">
-        <span>font: Cirpnova</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="dilyan">
-        <span>font: Dilyan</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="goran">
-        <span>font: Goran</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="goranC">
-        <span>font: Goran_C</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="jagodina">
-        <span>font: Jagodina</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="jgdpraz">
-        <span>font: JGD_PRAZ</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="jgdprko">
-        <span>font: JGD_PRKO</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="mirosln">
-        <span>font: Mirosln</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="naopak">
-        <span>font: Naopak</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="nikola">
-        <span>font: Nikola</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="nikolaL">
-        <span>font: Nikola_L</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="oksana">
-        <span>font: OksanaUA</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="pravosla">
-        <span>font: Pravosla</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="spomenar2">
-        <span>font: Spomenar2</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="spomenar6">
-        <span>font: Spomenar6</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="srpskaKniga">
-        <span>font: SrpskaKniga</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="ukije">
-        <span>font: Ukijje</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="vuk34">
-        <span>font: Vuk34</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="wrongo">
-        <span>font: WrongoULC_4F_Regular</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="wrongoI">
-        <span>font: WrongoULC_4F_Italic</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="zaneseni">
-        <span>font: Zanesenyi</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="zlatso">
-        <span>font: ZlatSoUcs</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
-    <div id="zlatu">
-        <span>font: ZlatUcs</span>
-        <p>АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЮЯ</p>
-        <p>абвгдежзийклмнопрстуфхцчшщъьюя</p>
-        <p>0123456789</p>
-    </div>
+        <script src="js/app.js"></script>
+        <script src="js/fontsCtrl.js"></script>
 </body>
 </html>
